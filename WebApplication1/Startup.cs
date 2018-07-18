@@ -27,7 +27,8 @@ namespace WebApplication1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync(Environment.GetEnvironmentVariable("asd"));
+                //await context.Response.WriteAsync(Environment.GetEnvironmentVariable("asd"));
+                await context.Response.WriteAsync("asd");
             });
         }
     }
